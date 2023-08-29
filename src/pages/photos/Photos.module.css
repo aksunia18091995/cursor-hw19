@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 90px;
+}
+
+.myMasonryGrid {
+    display: flex;
+    margin-left: -30px;
+    /* Враховуємо полів між зображеннями */
+    width: auto;
+}
+
+.myMasonryGridColumn {
+    padding-left: 30px;
+    /* Відстань між зображеннями */
+    background-clip: padding-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    /* Додаємо вертикальний відступ */
+}

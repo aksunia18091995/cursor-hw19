@@ -1,0 +1,16 @@
+.navigation {
+  padding: 25px;
+  background-color: rgb(67, 67, 67);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navigation a {
+  color: yellow;
+  font-size: 24px;
+}
+
+.navigation a:hover {
+  color: white;
+}

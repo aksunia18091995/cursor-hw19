@@ -1,0 +1,64 @@
+.component {
+    position: relative;
+    margin: 10px auto;
+    padding: 20px;
+    width: 800px;
+    background-color:rgba(67, 67, 67, 0.69);
+    border-radius: 20px;
+
+}
+
+.mainPhoto {
+    position: absolute;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.main {
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.name {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.nickDate {
+    color: rgb(230, 225, 225);
+    font-size: 12px;
+}
+
+.content {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+.money {
+    border-radius: 50% 20%;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    color: rgb(230, 225, 225);
+    font-size: smaller;
+}
+
+.footer span {
+    margin-left: 10px;
+}
